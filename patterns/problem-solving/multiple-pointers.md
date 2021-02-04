@@ -44,6 +44,9 @@ function areThereDuplicates(...args) {
 
   return false
 }
+
+areThereDuplicates(1, 2, 3)     // false
+areThereDuplicates(1, 2, 3, 1)  // true
 ```
 
 #### Реализация 2
@@ -56,7 +59,7 @@ function areThereDuplicates(...args) {
  * Напишите функцию, которая проверяет, что элементы в массиве `arr1`
  * содержатся в массиве `arr2` в том же порядке, но реверсивно
  */
-function areThereDuplicates(arr1, arr2) {
+function isItReverseArray(arr1, arr2) {
   if (arr1.length !== arr2.length) return false
 
   let a = 0
@@ -70,6 +73,9 @@ function areThereDuplicates(arr1, arr2) {
 
   return true
 }
+
+isItReverseArray([1, 2, 3, 4], [4, 3, 2, 1])
+// true
 ```
 
 Иллюстрация:
