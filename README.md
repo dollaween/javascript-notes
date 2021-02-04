@@ -17,3 +17,8 @@
 * **Математика**
   * [Алгоритм Евклида](./algorithms/math/euclidean-algorithm.md) — находим наибольший общий делитель
   * [Степень двойки](./algorithms/math/is-power-of-two.md) — проверяем, является ли число степенем двойки
+
+## Паттерны
+
+* **Паттерны решения задач**
+  * [Multiple Pointers](./patterns/problem-solving/multiple-pointers.md)
