@@ -45,8 +45,20 @@ function areThereDuplicates(...args) {
   return false
 }
 
-areThereDuplicates(1, 2, 3)     // false
-areThereDuplicates(1, 2, 3, 1)  // true
+areThereDuplicates(1, 2, 3, 4)     // false
+areThereDuplicates(1, 2, 3, 4, 1)  // true
+```
+
+Иллюстрация:
+```js
+// a b
+// 1 2 3 4
+// 
+//   a b
+// 1 2 3 4
+//
+//     a b
+// 1 2 3 4
 ```
 
 #### Реализация 2
@@ -74,8 +86,7 @@ function isItReverseArray(arr1, arr2) {
   return true
 }
 
-isItReverseArray([1, 2, 3, 4], [4, 3, 2, 1])
-// true
+isItReverseArray([1, 2, 3, 4], [4, 3, 2, 1])    // true
 ```
 
 Иллюстрация:
