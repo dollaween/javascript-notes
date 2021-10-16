@@ -45,6 +45,20 @@ type Props = {
 }
 ```
 
+---
+
+<div align="center">
+
+  ### Функции
+
+</div>
+
+---
+
+```ts
+// Parameter type annotation
+function greet(name: string) {}
+```
 
 ---
 
