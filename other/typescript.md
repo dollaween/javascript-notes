@@ -56,8 +56,10 @@ type Props = {
 ---
 
 ```ts
-// Parameter type annotation
-function greet(name: string) {}
+// Типизация параметров и возвращаемого результата
+function greet(name: string): string {
+  return name;
+}
 ```
 
 ---
@@ -77,5 +79,18 @@ let myName: string = "Alice";
 
 // Типизацию можно не добавлять
 let myName = "Alice";
+```
+
+Возвращаемое значение в функциях так же вычисляется автоматически.
+
+```ts
+function getNum(): number {
+  return 32;
+}
+
+// Типизацию можно не добавлять
+function getNum() {
+  return 32;
+}
 ```
 
