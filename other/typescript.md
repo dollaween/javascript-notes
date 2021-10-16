@@ -58,7 +58,7 @@ type Props = {
 
 ---
 
-Типизация параметров и возвращаемого результата
+Типизация параметров и возвращаемого результата.
 
 ```ts
 function greet(name: string): string {
@@ -132,6 +132,26 @@ function printName(obj: { first: string; last?: string }) {
   if (obj.last) {
     console.log(obj.last.toUpperCase())
   }
+}
+```
+
+---
+
+<div align="center">
+
+  ### Объединение типов
+
+</div>
+
+---
+
+У одного параметра может быть несколько типов.  
+При использовании параметра с несколькими типами, нужно создавать доп. проверки.
+
+```ts
+function printId(id: number | string) {
+  if (typeof id === 'string) {
+  } else {}
 }
 ```
 
