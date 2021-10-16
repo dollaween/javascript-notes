@@ -27,7 +27,15 @@ type Props = {
 }
 ```
 
-Массивы
+---
+
+<center>
+
+  ### Массивы
+
+</center>
+
+---
 
 ```ts
 type Props = {
