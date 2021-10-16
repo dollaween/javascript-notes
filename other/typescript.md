@@ -66,7 +66,9 @@ function greet(name: string): string {
 }
 ```
 
-
+```ts
+function coordinate(obj: { x: number; y: number }) {}
+```
 
 ---
 
