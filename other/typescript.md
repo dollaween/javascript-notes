@@ -186,12 +186,74 @@ type Coordinate = {
 }
 ```
 
+Пример расширения типа.
 
+```ts
+type Animal = {
+  name: string
+}
 
+type Bear = Animal & { 
+  honey: boolean 
+}
+```
 
+---
 
+<div align="center">
 
+  ### Interface
 
+</div>
+
+---
+
+```ts
+interface Animal {
+  name: string
+}
+
+interface Bear extends Animal {
+  honey: boolean
+}
+```
+
+---
+
+<div align="center">
+
+  ### Type vs Interface
+
+</div>
+
+---
+
+Типы и интерфейсы в целом похожи.
+
+Ключевое отличие — интерфейсы можно менять после создания, а типы — нельзя.
+
+```ts
+interface Window {
+  title: string
+}
+
+interface Window {
+  ts: TypeScriptAPI
+}
+// Все ок
+```
+
+```ts
+type Window = {
+  title: string
+}
+
+type Window = {
+  ts: TypeScriptAPI
+}
+
+ // Error: Duplicate identifier 'Window'.
+```
 
 
 
