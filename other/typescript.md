@@ -310,7 +310,7 @@ const a = (expr as any) as T;
 const req = { url: "https://example.com", method: "GET" as "GET" };
 ```
 
-as const — то же самое что и const, только для системы типов — то есть все значения будут установлены как литеральный тип, а не что-то общее типа string, number.
+`as const` — то же самое что и `const`, только для системы типов — то есть все значения будут установлены как литеральный тип, а не что-то общее типа `string`, `number`.
 
 ```ts
 const req = { url: "https://example.com", method: "GET" } as const;
