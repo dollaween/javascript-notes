@@ -23,3 +23,8 @@
 * **Паттерны решения задач**
   * [Multiple Pointers](./patterns/problem-solving/multiple-pointers.md)
   * [Sliding Window](./patterns/problem-solving/sliding-window.md)
+
+## Другое
+
+* **Инструменты**
+  * [Typescript](./other/typescript.md)
