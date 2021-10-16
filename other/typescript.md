@@ -155,6 +155,13 @@ function printId(id: number | string) {
 }
 ```
 
+Или приводить все типы к одному.
+```ts
+function printId(id: number | string) {
+  const formattedId = id.toString();
+}
+```
+
 
 
 
