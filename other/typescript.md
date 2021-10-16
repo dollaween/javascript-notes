@@ -29,11 +29,11 @@ type Props = {
 
 ---
 
-<center>
+<div align="center">
 
   ### Массивы
 
-</center>
+</div>
 
 ---
 
