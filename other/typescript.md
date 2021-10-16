@@ -66,7 +66,7 @@ function greet(name: string): string {
 
 <div align="center">
 
-  ### Типизирование переменных
+  ### Автоматическое типизирование
 
 </div>
 
@@ -93,4 +93,26 @@ function getNum() {
   return 32;
 }
 ```
+
+#### Контекстное типизирование
+
+```ts
+// Автоматическое типизирование
+const names = ["Alice", "Bob", "Eve"];
+ 
+// Контекстное типизирование на основе типа names
+names.forEach((s) => {
+  console.log(s.toUpperCase());
+});
+```
+
+
+
+
+
+
+
+
+
+
 
