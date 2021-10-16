@@ -14,10 +14,13 @@
 
 ---
 
-Примитивы:
-* string
-* number
-* boolean
+<div align="center">
+
+  ### Примитивы
+
+</div>
+
+---
 
 ```ts
 type Props = {
@@ -55,12 +58,15 @@ type Props = {
 
 ---
 
+Типизация параметров и возвращаемого результата
+
 ```ts
-// Типизация параметров и возвращаемого результата
 function greet(name: string): string {
   return name;
 }
 ```
+
+
 
 ---
 
