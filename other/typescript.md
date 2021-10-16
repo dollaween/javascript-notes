@@ -74,6 +74,30 @@ function coordinate(obj: { x: number; y: number }) {}
 
 <div align="center">
 
+  ### Literal Types
+
+</div>
+
+---
+
+Помимо обобщенного типа string или number, мы можем указывать конкретные значения.
+
+```ts
+type Alignment = 'left' | 'right' | 'center';
+
+const left: Alignment = 'left';
+```
+
+```ts
+// Константы автоматически задают переменной тип равный значению
+const name = 'John';
+```
+
+
+---
+
+<div align="center">
+
   ### Автоматическое типизирование
 
 </div>
