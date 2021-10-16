@@ -162,6 +162,30 @@ function printId(id: number | string) {
 }
 ```
 
+---
+
+<div align="center">
+
+  ### Type Alias
+
+</div>
+
+---
+
+```ts
+type Point = {
+  x: number;
+  y: number;
+}
+
+type ID = number | string;
+
+type Coordinate = {
+  id: ID;
+  position: Point;
+}
+```
+
 
 
 
