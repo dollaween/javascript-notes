@@ -278,7 +278,7 @@ const myCanvas = <HTMLCanvasElement>document.getElementById("main_canvas");
 
 Type Assertion используется в случае, когда нужно из общего типа выбрать более частный (или наоборот). Пример:
 
-```html
+```ts
 const a = (expr as any) as T;
 ```
 
