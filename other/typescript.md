@@ -25,7 +25,7 @@ type Props = {
   age: number;        // 33
   hasBeard: boolean;  // false
 }
-``
+```
 
 Массивы
 
