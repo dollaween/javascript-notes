@@ -27,6 +27,7 @@ type Props = {
   name: string;       // John
   age: number;        // 33
   hasBeard: boolean;  // false
+  money: bigint;      // 100n
 }
 ```
 
