@@ -267,7 +267,7 @@ type Window = {
 
 Иногда Тайпскрипт не может определить тип автоматически.
 
-Например, `document.getElementById` вернет тип `HTMLElement`. Но мы знаем что по этому id нам придет канвас и нам нужны параметры, поэтому мы можем задать тип напрямую через `as`.
+Например, `document.getElementById` вернет тип `HTMLElement`. Но мы знаем что по этому id нам придет канвас и нам нужны параметры канваса, поэтому мы можем задать тип напрямую через `as`.
 
 ```ts
 const myCanvas = document.getElementById("main_canvas") as HTMLCanvasElement;
